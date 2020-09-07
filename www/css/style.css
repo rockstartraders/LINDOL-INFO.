@@ -1,0 +1,582 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+    
+}
+
+/* css sa simula */
+
+
+
+.pamagat{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'vonique_64bold';
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-top: 60%;
+    font-weight: 900;
+
+}
+
+.progress{
+    margin-top: 30px;
+    width: 70%;
+    background-color: rgb(214, 214, 214);
+   
+}
+
+.progress .indeterminate {
+    background-color:  #c52a1f;
+}
+
+
+#konektor{
+    font-size: 0.1px;
+    margin-top: 0;
+    color: transparent;
+}
+
+.btn{
+    height: 0px;
+    color: transparent;
+  
+}
+
+
+#mensahe_una{
+    font-family: 'nunito_sansbold', sans-serif;
+    
+}
+
+/* end ng css sa simulang page  */
+
+/* navbar */
+.brand-logo{
+    margin-left: 70px;   
+    font-family: 'vonique_64bold';
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.nav-wrapper{
+    background-color: #00796B; 
+    
+    
+}
+
+
+
+.sidenav >li{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'nunito_sansbold', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+#dropdown1{  
+    top: 60px !important; 
+    
+ 
+
+}
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: rgb(24, 24, 24);
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+    
+}
+
+.sidenav{
+    width: 250px;
+    font-family: 'nunito_sansbold', sans-serif;
+    margin-left: 1px;
+    text-transform: capitalize;
+    font-weight: 400;
+    height: 80%;
+    border-radius: 1px;
+    
+}
+
+.sidenav li > a {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+
+
+ .sidenav li > a > i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 3px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 2px;
+}
+
+
+/* end ng navbar */
+
+
+/* warning pag may error */
+
+
+#warning{
+    align-items: center;
+    font-size: 6rem;
+    color: #F44336;
+    margin-top: 18px;
+}
+
+
+#warning_text{
+
+    font-size: 1.4em;
+    font-family: 'nunito_sansbold', sans-serif;
+    letter-spacing: 1px;    
+    font-weight: 900;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 22px;
+}
+
+
+#warning_btn{
+    font-family: 'nunito_sansbold', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 35px;
+    height: 35px;
+    
+
+
+}
+
+
+/* inner html */
+
+#indic{
+   margin-top: 60%;
+}
+
+#indictext{
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+}
+
+/*#change{
+    background-color: #FFFAFA;
+}
+/* magnitude color */
+
+
+
+#min{
+
+
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: .6rem;
+    font-size: 3rem;
+    margin-top: -9px;
+    padding-top: -3rem;
+    margin-bottom: 8px;
+    color:rgb(48, 46, 46);
+
+   
+    
+   
+    
+}
+    
+
+
+#med{
+   
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: .6rem;
+    font-size: 3rem;
+    margin-top: -9px;
+    padding-top: -3rem;
+    margin-bottom: 8px;
+    color:rgb(48, 46, 46);
+
+    
+   
+  
+   
+}
+
+#max{
+   
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: .6rem;
+    font-size: 3rem;
+    margin-top: -9px;
+    padding-top: -3rem;
+    margin-bottom: 8px;
+    color:rgba(48, 46, 46,);
+
+    
+}
+
+
+/* Warning */
+#deyt-min{
+    color: #4caf50;
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;  
+    letter-spacing: 1px; 
+
+
+}
+
+
+#deyt-med{
+    color: #FBC02D;
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;   
+    letter-spacing: 1px; 
+    
+    
+}
+
+
+#deyt-max{
+    color: #F44336;
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;    
+    letter-spacing: 1px; 
+   
+}
+
+
+
+/* coordinates pang fetch sa map */
+
+#coor1, #coor2{
+    font-size: .1px;   
+    display: inline-block;
+    margin-bottom: -5vh;
+    padding-bottom: -5vh;
+    color: white;
+    display: none;
+}
+
+
+
+/* pamagat */
+
+#pamagat{
+
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1em;
+    
+    
+    
+
+
+}
+
+#deyt{
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+    line-height: 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px; 
+    margin-left: 3rem;   
+    color: rgba(17, 17, 17, 0.5);
+    
+
+}
+
+/* icons */
+
+#bilog{
+    font-size: 13px;  
+    margin-top: 1.5rem;   
+    margin-left: 4rem;
+   
+   
+   
+
+}
+
+/* row */
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    
+}
+
+
+/* collection */
+
+.collection {
+    margin: 1px 0 7px 2px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+   
+   
+    
+}
+
+
+
+.collection .collection-item.avatar {
+    min-height: 84px;
+    padding-left: 3px;
+    position: relative;
+}
+
+
+
+
+/* picture sa side */
+
+.circle{
+   height: 50px;
+ 
+}
+
+
+/* bansa */
+#bansa{
+    text-align: right;
+    text-decoration: none;
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    color: rgba(17, 17, 17, 0.5);
+    display: inline-block;
+    margin-top: 3.6em;   
+    
+}
+
+
+/* tabs  */
+
+
+.tabs{  /* pata bottom */
+
+    position: absolute;
+    bottom: 0;
+   
+   
+    
+    
+}
+
+.tabs .tab a:hover, .tabs .tab a{
+    background-color: #00796B;
+    color: white;
+
+    font-family: 'nunito_sansbold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+
+a.active {
+    background-color: #00796B !important;
+    color: white;
+}
+
+.tabs .tab a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    padding-top: 7px !important;
+  
+   
+}
+
+.tabs .indicator {
+    background-color: rgb(241, 241, 241);
+    /*Custom Color Of Indicator*/
+   
+  }
+
+  .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: white !important;
+   
+}
+
+
+/*end tab section */
+
+/* about info */
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'nunito_sansbold', sans-serif;   
+    font-weight: 900;
+    margin-top: 85px;    
+}
+
+
+.head1{ /* resources */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'nunito_sansbold', sans-serif;   
+    font-weight: 900;
+    margin-top: 40px;
+    padding-bottom: 1rem;    
+}
+
+.head2{ /* resources */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'nunito_sansbold', sans-serif;   
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 2rem; 
+
+}
+
+.remark_ko{ /* resources */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'vonique_64bold'; 
+    font-weight: 900;
+    margin-top: 15px;      
+    letter-spacing: 4px; 
+    margin-bottom: 7px;
+}
+
+
+#tanga{
+    color: #F44336;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+#namenito{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'vonique_64bold'; 
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: -9px;
+    font-size: 18px;
+
+}
+
+#flaticon {
+ color: black; 
+ font-family: 'nunito_sansbold', sans-serif;  
+ padding-left: 15px;
+ font-size: 13px; 
+ text-transform: uppercase;
+
+}
+
+
+
+
+
+#leaflet, #materialize, #momentframe, #pg, #usapi, #mungkahi{
+
+ color: black; 
+ font-family: 'nunito_sansbold', sans-serif;  
+ padding-left: 15px;
+ font-size: 20px; 
+ text-transform: uppercase;
+
+}
+
+#gitko, #git2{
+
+    margin-top: 15px;
+    color: black; 
+    font-family: 'nunito_sansbold', sans-serif;  
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;  
+
+}
+
+#remark_a{
+    margin-top: 5px;
+    color: black; 
+    font-family: 'nunito_sansbold', sans-serif;  
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;  
+    justify-content: space-evenly;
+
+}
+
+#jeng{
+    float: right;
+    padding-right: 15px;
+    font-family: 'nunito_sansbold', sans-serif;  
+    font-size: 16px;  
+    letter-spacing: 1px;
+}
+
+#bigtime{
+    color: #0D47A1;
+    text-transform: lowercase;
+    font-size: 13px;
+    padding-left: 15px;
+    font-size: 20px; 
+    
+}
+
+/* end ng about */
